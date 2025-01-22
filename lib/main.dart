@@ -9,12 +9,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: ConnectView());
+    return MaterialApp(home: AppView());
   }
 }
 
-class ConnectView extends StatelessWidget {
-  const ConnectView({super.key});
+class AppView extends StatelessWidget {
+  const AppView({super.key});
 
   @override
   Widget build(BuildContext context) => Scaffold(
